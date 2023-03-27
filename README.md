@@ -5,3 +5,4 @@
 Integrantes:
 
 Luis Gonzalo Garey Tito
+Brayan Zurita Laura
