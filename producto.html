@@ -5,8 +5,8 @@
     <link rel="stylesheet" type="text/css" href="Producto.css">
   </head>
   <body>
+    <h1>Productos</h1>
     <div class="contenedor-productos">
-        <h1>Productos</h1>
       <div class="producto">
         <img src="Imagen/Seguro.jfif" alt="Producto 1">
         <h3>Software</h3>
@@ -19,14 +19,10 @@
         <p>Pcs Completas</p>
         <p>1500 $</p>
       </div>
-      <div>
-        <button onclick="mostrarAlerta()">Promociones</button>
-        <script>
-        function mostrarAlerta() {
-            alert("Tenemos Descuentos!");
-        }
-        </script>
+      <div class="producto">
+        <button id="miBoton">Promociones</button>
       </div>
     </div>
+    <script src="Productos.js"></script>
   </body>
 </html>

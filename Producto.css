@@ -35,4 +35,17 @@
     margin: 10px 0;
     cursor: pointer;
   }
+  h1 {
+    font-size: 3rem;
+    color: #333;
+    text-align: center;
+  }
+  #miBoton {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
   
