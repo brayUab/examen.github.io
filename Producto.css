@@ -1,0 +1,38 @@
+.contenedor-productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .producto {
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .producto img {
+    width: 100%;
+  }
+  
+  .producto h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .producto p {
+    margin: 10px 0;
+  }
+  
+  .producto button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
