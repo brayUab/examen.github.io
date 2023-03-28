@@ -14,7 +14,7 @@
           <p class="card-text">Av. Pairumani Km1</p>
           <p class="card-text">Telefono: 4445954 </p>
           <p class="card-text">Calle N° 45</p>
-          <a href="btn" class="btn btn-primary">button</a>
+          <button id="Bot">Email</button>
         </div>
       </div>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -26,9 +26,11 @@
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU0Xm2PpHmKfTkB1CggKgI3FqJCgsoYw2vDDR8JLWk5PiI"
 		crossorigin="anonymous"></script>
       <script>
-        document.getElementById("btn").addEventListener("click", function() {
-      console.log("vico@gmail.com");
-    });
+        function mostrarEmail() {
+    alert("vico@gmail.com");
+  }
+  
+  document.getElementById("Bot").onclick = mostrarEmail;
     </script>
 </body>
 
